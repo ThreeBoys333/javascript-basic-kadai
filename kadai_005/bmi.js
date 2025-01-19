@@ -1,3 +1,10 @@
-let Bmi = 68 / 1.7 * 1.7;
+//体重
+let weight = 68;
 
-console.log(Bmi);
+//身長
+let height = 1.7;
+
+//BMI
+let bmi = weight / (height * height);
+
+console.log(bmi);
