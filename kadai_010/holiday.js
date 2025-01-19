@@ -7,9 +7,9 @@ for (let i = 0; i < holidays.length; i++) {
 }
 
 // while文の場合
-let num = Math.floor(Math.random() * holidays.length)
+let i = 0;
 
-while (num !== 15) {
-    num = Math.floor(Math.random() * holidays.length);
-    console.log(holidays[num]);
+while (i < holidays.length) {
+    console.log(holidays[i]);
+    i++;
 }
